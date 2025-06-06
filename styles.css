@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+.nav {
+     backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color:#1f1c18;
+    padding: 20px 0;
+  
+ 
+}
+.logo {
+  max-width: 45px;
+}
+.nav-item a {
+  color: whitesmoke;
+  font-weight: bold;
+}
+section {
+    padding: 50px 0;
+}
+
+/* COURSES SECTION*/
+.courses {
+   background-color: whitesmoke;
+   opacity: 0.9;
+}
+.card-course:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+transition: 0.5s linear;
+}
+
+
+.review-image {
+  max-width: 100px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.fa-star, .fa-star-half {
+  color: gold;
+}
+.fa-user {
+  color: blue;
+}
+.fa-instagram:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-tiktok:hover {
+transform: translateY(-5px);
+transition: 0.9s linear;
+cursor: pointer;
+}
+     .hidden {
+      opacity: 0;
+      transition: opacity 1s linear, transform 1s linear;
+    }
+    .from-left {
+          transform: translateX(-30px);
+    }
+    .from-right {
+          transform: translateX(30px);
+    }
+    .from-down {
+          transform: translateY(30px);
+    }
+
+    .visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+
+
+
+
+
+    
